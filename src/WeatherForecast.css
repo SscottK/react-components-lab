@@ -1,5 +1,6 @@
 section {
   display: flex;
+  
 }
 
 section .weather {
@@ -11,4 +12,10 @@ section .weather {
 
 .weather span {
   font-weight: bold;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    place-items: center;  
 }

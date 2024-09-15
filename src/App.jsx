@@ -42,7 +42,7 @@ const weatherForecasts = [
 
 const App = () => {
   return (
-    <>
+    <div className="everything">
       <h1>Local Weather</h1>
       <section>
       {weatherForecasts.map((forecast) => (
@@ -50,7 +50,7 @@ const App = () => {
       ))}
       
       </section>
-    </>
+    </div>
   )
 }
 
